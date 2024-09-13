@@ -1,9 +1,11 @@
 {
   "name": "mysql1-note-app",
+  "type": "module",
   "version": "1.0.0",
   "description": "A full API using Node.js, express, Bcrypt and MySQL",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +27,8 @@
   "dependencies": {
     "bcrypt": "^5.1.1",
     "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
