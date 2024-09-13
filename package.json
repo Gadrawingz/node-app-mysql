@@ -1,0 +1,29 @@
+{
+  "name": "mysql1-note-app",
+  "version": "1.0.0",
+  "description": "A full API using Node.js, express, Bcrypt and MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gadrawingz/notebook-app-express-mysql.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "MySQL",
+    "Bcrypt"
+  ],
+  "author": "Gad Iradufasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gadrawingz/notebook-app-express-mysql/issues"
+  },
+  "homepage": "https://github.com/Gadrawingz/notebook-app-express-mysql#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0"
+  }
+}
