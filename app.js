@@ -22,7 +22,7 @@ app.post('/signup', async (request, response) => {
     });
     //response.send({username, password})
     console.log(users);
-    response.send("Success!");
+    response.send("\nUser has been registered!");
 })
 
 
